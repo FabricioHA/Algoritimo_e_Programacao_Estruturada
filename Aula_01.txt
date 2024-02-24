@@ -1,0 +1,130 @@
+Algoritimos e programação Estruturada
+
+Aula 01
+
+Passos da engenharia de software
+
+1)Análise de requisitos;
+2)Modelagem de sistemas;
+3)Equacionar os sistemas;
+4)Resolver os sistemas
+5)Testar os sistemas;
+6)Apresentar os sistemas.
+
+Algoritomos são passos para chegar a um resultado. Algoritomos de programação são 
+de extrema importância para modelarmos como o programa funcionaria dentro de um 
+passo a paso experimental, vendo suas ramificações e condicionais, como um 
+ciclo de vida de uma maçã:
+
+1.colhe maçã
+2. se maçã estiver podre, então
+2.1 finlizar colhetia
+2.2 colocar maçã no cesto
+3. encaixotar maçã
+4. vender maçã
+5. se maçã estiver podre, então
+5.1 jogar maçã fora
+5.2 comer maçã
+6. Digeir maçã
+
+Podemos chegar a diferentes formas para alcançar um resultado, e é por isso que uma
+boa lógica define a qualidade do software que será feito com base no algoritimo.
+
+Algoritimo é divido em:
+
+Entrada: dados de entrada de um algoritimo, como os elementos tipo coleta de dados de 
+uma variavel, por exemplo
+
+Processamento: São os procedimentos necessários para se chegar ao resultado final,
+como funções e operações numéricas para modificar variveis e obter o valor desejado
+
+Saida: Resultado ao qual o algoritimo quer chegar após o processamento dos 
+dados de entrada, como uma exibição de texto ou algo parao usuário como retorno do
+processamnto acima.
+
+======================================================================================
+				Linguagem Natural
+
+A linguagem natural é algo que, independente da lingua, pode criar algo capaz de 
+ser interpretado por qualquer pessoa tendo conhecimento de como aquilo funciona.
+
+Diagramas rementem muito a esse tipo de coisa, pois sabendo algumas palavras chave,
+você é capaz de interpretar qualquer algoritomo, por exemplo, independente da sua
+lingua.
+
+Exemplo de um algoritomo:
+
+1.Início.
+2.Entrar com a nota do aluno no primeiro bimestre.
+3.Entrar com a nota do aluno no segundo bimestre.
+4.Realizar a soma das duas notas e dividir o resultado por dois (isso corresponde à 
+média do aluno).
+5.Armazenar o valor da média encontrada.
+6.Mostrar na tela o valor da média.
+6.1.Se a média for maior ou igual a seis, mostrar na tela que o aluno está aprovado.
+6.2.Senão, mostrar na tela que o aluno está reprovado.
+7.Fim.
+
+Como ja dissemos acima, temos as variáveis, que são objetos/artefatos que armazenam
+dados, sejam eles texto ou numeros, com o intuito de processar algo com tais dados.
+
+por exmplo seguindo o exemplo do algoritimo acima:
+
+idade <- 8
+
+nome_aluno <- “márcio”
+
+nome_professor <- “josé”
+
+nota_aluno <- 9.5
+
+======================================================================================
+
+					Fluxograma
+
+Fluxograma são blocos que representam ações, entradas e processamentos de um 
+algoritimo, com o intuito de facilitar a vizualização de um código de programação,
+por exemplo.
+
+======================================================================================
+
+					Pseudocódigo
+
+Peudocódigo basicamente é um uma forma de escrever linguagem de programação de forma
+insterpretativa e mais natural, seja em portugues ou inglês, como mas segundo a
+lógica de um código escrito em alguma linguagem, como nesse caso, em c++.
+======================================================================================
+
+				Exemplo de linguagem natural
+
+1. Inicio
+2. Entrar com o primeiro vlaor (Nota do primeiro bimestre);
+3. Entrar com o segundo valor (nota do segundo bimestre);
+4. Realizar a soma do primeiro valor com o segundo;
+5. Realizar a divisão do total dos valore por dois;
+6. armazenar na tela o resultado da média;
+7. Mostrar na tela o resultado da média;
+8. Fim
+
+Temos também um tipo de algoritimo chamado de Euclidiano, utilizado para fazer o mdc;
+
+1. Dividir um número "a" por "b", onde o resto é representado por r
+2. Substituir a por b;
+3, Substituir b por r;
+4. Continuar a divisão de a por b até que um não possa ser mais dividido, então "a" é 
+considerado o mdc;
+
+Exemplo de mdc abaixo em tabela:
+
+a	b	c
+480	130	90
+130	90	40
+90	40	10
+40	10	0
+10	0
+
+
+
+
+
+
