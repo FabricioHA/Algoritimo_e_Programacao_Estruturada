@@ -1,0 +1,33 @@
+	Como Dados são representados e utilizados em Linguagem de programação
+
+					Variaveis
+
+Variavel é um valor em uma posição na memória, como se fossem gavetas guardando dados:
+
+Gavetas (blocos de espaços) da memória
+
+|   1 idade |   2       |   3       |   4       |
+|   5       |   6       |   7       |   8       |
+|   9       |   10      |   11 nome |   12      |
+
+
+Temos dois tipos de variáveis: Primitivos e compostos. Entre os primitivos, temos:
+
+-Numérico inteiro: Numeros naturias reais, inteiros, sem valores quebrados
+
+-Numérico float (flutuante): Armazena dados referentes a valores quebrados, decimais
+e valores "imaginários".
+
+-Caracteres: Usados para armzenar valores de texto, caractere por caractere através
+do index, como no exemplo da gaveta, representado um index, como por exemplo:
+
+String
+|   O   |   l   |   a   |   ,   |       |   M   |   u   |   n   |   d   |   o   |
+
+String representada em ASCII
+|   79  |   108 |   97  |   44  |   32  |   109 |   117 |   110 |   100 |   111 |
+
+-Booleano: Referente a dois tipos de valores apenas, sendo eles true/false
+(Verdadeiro/falso).
+Esse tipo de variável utiliza para validar algo sendo como verdadeiro ou não.
+
