@@ -1,13 +1,13 @@
 /*
 Vetor de caracteres (STRING)
 
-caracteres s„o um tipo primitivo de dados, lembrando que palavras s„o formadas por uma
+caracteres s√£o um tipo primitivo de dados, lembrando que palavras s√£o formadas por uma
 cadeia de caracteres.
 
-Levando em conta essa cadeia de caracteres, podemos presupor que palavras s„o vetores
-tambÈm. em programaÁ„o, essa cadeia/vetor de caracteres È chamado de STRING.
+Levando em conta essa cadeia de caracteres, podemos presupor que palavras s√£o vetores
+tamb√©m. em programa√ß√£o, essa cadeia/vetor de caracteres √© chamado de STRING.
 
-Em c, n„o temos uma variavel para string, ent„o para declararmos uma, precisamos
+Em c, n√£o temos uma variavel para string, ent√£o para declararmos uma, precisamos
 criar a partir do tipo char:
 
 char <nome_da_string>[tamanho]
@@ -18,8 +18,8 @@ char nome[16];
 char sobrenome[31];
 char frase[101];
 
-… bom nos atentarmos tambÈm ao tamanho da string. quando declaramos uma variavel de 16
-blocos, apenas 15 de fato ser„o utilizados, pois o ultimo bloco È reservado ao
+√â bom nos atentarmos tamb√©m ao tamanho da string. quando declaramos uma variavel de 16
+blocos, apenas 15 de fato ser√£o utilizados, pois o ultimo bloco √© reservado ao
 compilador que atribui o valor "\0", determinando o final da sequencia de caracteres.
 
 Podemos declarar strings de duas formas distintas, sendo a primeira entre chaves
@@ -29,24 +29,24 @@ aspas duplas
 char nome[16]={'J','o','a','o'};
 char sobrenome[31] = "Alberto Gomes";
 
-a funÁ„o scanf serve bem para imprimir os valores individualmente, mas por definiÁ„o,
-o scanf ir· ler uma variavel atÈ encontrar um space in white (espaÁo) dentro do texto
+a fun√ß√£o scanf serve bem para imprimir os valores individualmente, mas por defini√ß√£o,
+o scanf ir√° ler uma variavel at√© encontrar um space in white (espa√ßo) dentro do texto
 
-TambÈm poderiamos utilizar a funÁ„o gets() que ler· todo o input atÈ encrontrar um 
-newline ou o fim do arquivo, considerando espaÁos como parte da string.
+Tamb√©m poderiamos utilizar a fun√ß√£o gets() que ler√° todo o input at√© encrontrar um 
+newline ou o fim do arquivo, considerando espa√ßos como parte da string.
 
-No entanto, os dois n„o s„o ideais por n„o terem um buffer de proteÁ„o contra overflow:
+No entanto, os dois n√£o s√£o ideais por n√£o terem um buffer de prote√ß√£o contra overflow:
 
-Nota: Buffer overflow È referente a um ataque hacker contra vulnerabilidades do 
+Nota: Buffer overflow √© referente a um ataque hacker contra vulnerabilidades do 
 programa (como scanf ou gets), tentando armazenar mais dados do que ele foi
-projetado para conter, permitindo a execuÁ„o de um cÛdigo malicioso ou corrompimento
+projetado para conter, permitindo a execu√ß√£o de um c√≥digo malicioso ou corrompimento
 de dados importantes no sistema afetado.
 
-a melhor opÁ„o È o fgets(), tambÈm do <stdio.h>, contendo a seguinte sintaxe:
+a melhor op√ß√£o √© o fgets(), tamb√©m do <stdio.h>, contendo a seguinte sintaxe:
 
 fgets(destino, tamanho, fluxo);
 
-Destino: È referente ao nome da string;
+Destino: √© referente ao nome da string;
 Tamanho: deve ser o mesmo declarado na variavel;
 Fluxo: Indica o tipo de entrada da string (normalmente do teclado), referente ao
 parametro stdin (standard input);

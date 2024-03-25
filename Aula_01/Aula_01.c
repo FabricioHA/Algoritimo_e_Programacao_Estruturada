@@ -1,3 +1,4 @@
+
 #include <stdlib.h> //Exportar printf e scanf
 #include <stdio.h>//Exportar system
 #include <locale.h> //Ajustar caracteres especiais
@@ -10,7 +11,7 @@ int main(){
 	
 	int nota1, nota2, media;
 	
-	printf("--Calcular mÈdia b·sica--\n\n");
+	printf("--Calcular m√©dia b√°sica--\n\n");
 	
 	printf("Digite a primeira nota: ");
 	scanf("%i", &nota1);
@@ -29,7 +30,7 @@ int main(){
 		printf("Aluno Reprovado\nNota final: %i\n\n", media);
 	}
 	else{
-		printf("\nValores inv·lidos. Execute novamente\n\n");
+		printf("\nValores inv√°lidos. Execute novamente\n\n");
 	}
 	
 	system("pause");
