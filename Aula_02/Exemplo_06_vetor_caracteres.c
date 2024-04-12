@@ -42,11 +42,11 @@ programa (como scanf ou gets), tentando armazenar mais dados do que ele foi
 projetado para conter, permitindo a execu√ß√£o de um c√≥digo malicioso ou corrompimento
 de dados importantes no sistema afetado.
 
-a melhor op√ß√£o √© o fgets(), tamb√©m do <stdio.h>, contendo a seguinte sintaxe:
+a melhor opÁ„o È o fgets(), tambem do <stdio.h>, contendo a seguinte sintaxe:
 
 fgets(destino, tamanho, fluxo);
 
-Destino: √© referente ao nome da string;
+Destino: … referente ao nome da string;
 Tamanho: deve ser o mesmo declarado na variavel;
 Fluxo: Indica o tipo de entrada da string (normalmente do teclado), referente ao
 parametro stdin (standard input);
@@ -58,6 +58,7 @@ Exemplo:
 
 int main()
 {
+	ShowWindow(GetConsoleWindow(), SW_MAXIMIZE);
 	char frase[10];
 	
 	printf("\n Digite uma frase:");
@@ -65,4 +66,11 @@ int main()
 	fgets(frase, 10, stdin);
 	
 	printf("\n Frase digitada: %s", frase);
+	
+	return 0;
 }
+
+/*Perceba que o fflush() È usado antes de declararmos o fgets(frase, 101, stdin).
+Apesar de n„o ser obrigatÛrio, È uma boa pr·tica para garantir que a entrada
+padr„o seja limpa sem dados e leituras anteriores, sendo esse um dos grandes
+problemas de C por ser uma linguagem de baixo nivel*/
